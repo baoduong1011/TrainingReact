@@ -1,0 +1,13 @@
+.film p{
+    color:rgba(0, 0, 0, 0.411);
+}
+
+.film img{
+    width: 100%;
+    height: 50%;
+    display: block;
+}
+
+.film h1{
+    color:rgba(255, 166, 0, 0.829);
+}

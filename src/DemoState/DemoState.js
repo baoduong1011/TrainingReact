@@ -21,11 +21,12 @@ export default class DemoState extends Component {
         // setState(): là phương thức có sẵn lớp đối tượng component => dùng để thay đổi giá trị trong this.state đồng thời gọi lại hàm render
         this.state.isLogIn=true;
         // this.state.isLogIn=true; không thể gán lại giá trị nên t sử dụng hàm setState
-        console.log('isLogin: ',this.state.isLogIn);
+
         const newState = {
             isLogIn: true
         }
         this.setState(newState);
+        console.log('isLogin: ',this.state.isLogIn);
     }
     render() {
         return (

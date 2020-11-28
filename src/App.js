@@ -9,6 +9,12 @@ import HandleEvent from './HandleEvent/HandleEvent';
 import DemoState from './DemoState/DemoState';
 import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
 import RenderWithMap from './RenderWithMap/RenderWithMap';
+import LayoutsMain from './components/LayoutsFE/LayoutsMain';
+import LayoutsGlass from './components/BaiTapKinh/LayoutsGlass';
+import BaiTapRenderFilm from './RenderWithMap/BaiTapFilm/BaiTapRenderFilm';
+import DemoDrop from './DataBinding/DropDemo/DemoDrop';
+import ProductListRCC from './DataBinding/DropDemo/ProductListRCC';
+
 
 function App() {
   return (
@@ -18,7 +24,13 @@ function App() {
      {/* <DataBindingClassComponents/> */}
      {/* <HandleEvent/> */}
      {/* <BaiTapChonXe/> */}
-     <RenderWithMap/>
+     {/* <RenderWithMap/> */}
+     {/* <DemoState/> */}
+     {/* <LayoutsMain/> */}
+     {/* <LayoutsGlass/> */}
+     {/* <BaiTapRenderFilm/> */}
+     {/* <DemoDrop/> */}
+     <ProductListRCC/>
     </div>
   );
 }

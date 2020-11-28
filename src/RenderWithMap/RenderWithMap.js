@@ -10,7 +10,7 @@ export default class RenderWithMap extends Component {
 
     // renderProduct = () => {
     //     let arrSP = [];
-    //     for (let index in this.products) {
+    //     for (let index in this.products) {   
     //         let product = this.products[index];
     //         let jsxProduct = <div className="col-4">
     //             <img className="card-img-top" src="https://picsum.photos/200" alt />
@@ -53,8 +53,8 @@ export default class RenderWithMap extends Component {
             <div className="container">
                 <div className="row">
                     {/* {this.renderProduct()} */}
-                    {/* {this.renderProductByMap()} */}
-                    {this.renderTable()}
+                    {this.renderProductByMap()}
+                    {/* {this.renderTable()} */}
                 </div>
             </div>
         )
