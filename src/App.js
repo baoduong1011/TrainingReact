@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './DataBinding/DropDemo/main.css'
 import DemoFunctionComponent from './components/DemoFunctionComponent';
 import DemoReactClassComponets from './components/DemoReactClassComponets';
 import Layouts from './components/BaiTapLayouts/Layouts';
@@ -14,6 +15,7 @@ import LayoutsGlass from './components/BaiTapKinh/LayoutsGlass';
 import BaiTapRenderFilm from './RenderWithMap/BaiTapFilm/BaiTapRenderFilm';
 import DemoDrop from './DataBinding/DropDemo/DemoDrop';
 import ProductListRCC from './DataBinding/DropDemo/ProductListRCC';
+import PropsEvent from './DataBinding/DropDemo/PropsEvent';
 
 
 function App() {
@@ -26,11 +28,12 @@ function App() {
      {/* <BaiTapChonXe/> */}
      {/* <RenderWithMap/> */}
      {/* <DemoState/> */}
-     {/* <LayoutsMain/> */}
-     {/* <LayoutsGlass/> */}
+     <LayoutsMain/>
+     {/* <LayoutsGlass/>                        */}
      {/* <BaiTapRenderFilm/> */}
      {/* <DemoDrop/> */}
-     <ProductListRCC/>
+     {/* <ProductListRCC/> */}
+     {/* <PropsEvent/> */}
     </div>
   );
 }
